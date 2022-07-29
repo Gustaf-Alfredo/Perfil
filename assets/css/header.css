@@ -1,0 +1,31 @@
+.header {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   height: 100px;
+   max-width: 1200px;
+   background-color: red;
+   margin: auto;
+}
+
+.header img {
+    display: block;
+    grid-row: 2;
+}
+
+.header nav {
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    grid-column: 3;
+}
+
+.header nav ul {
+    display: flex;
+    background-color: blue;
+    gap: 40px;
+}
+
+.header nav ul li{
+    list-style: none;
+}
